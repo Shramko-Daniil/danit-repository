@@ -1,0 +1,59 @@
+.header {
+  padding-top: 380px !important;
+  padding-left: 60px;
+}
+
+.card {
+  max-width: 1200px;
+  display: flex;
+  margin: 60px auto;
+  padding-bottom: 40px;
+  border-bottom: 3px solid black;
+  gap: 60px;
+  justify-content: space-between;
+}
+
+.card-text {
+  max-width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card img {
+  max-width: 50%;
+}
+
+.personalInfo {
+  display: flex;
+  gap: 60px;
+  justify-content: center;
+}
+
+.personalInfoImage {
+  opacity: 0.8;
+  background: #be9b8c;
+}
+
+.personalInfoImage img {
+  padding: 130px;
+}
+
+.personalInfoText {
+  display: flex;
+  max-width: 540px;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.personalInfoText p {
+  line-height: 15px;
+}
+
+.card-list {
+  margin: 100px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  align-items: center;
+}

@@ -1,0 +1,27 @@
+table,
+td,
+th {
+  border: 1px solid black;
+}
+
+body {
+  background: slategray;
+}
+
+td,
+th {
+  padding: 10px 15px;
+  text-align: center;
+}
+
+th {
+  background: mediumseagreen;
+}
+
+tbody th {
+  background: mediumturquoise;
+}
+
+tbody td {
+  background: lavender;
+}

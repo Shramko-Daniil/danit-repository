@@ -1,0 +1,40 @@
+.circle {
+  width: 58px;
+  height: 58px;
+  background: lightpink;
+  border-radius: 50%;
+  position: relative;
+  animation: left-to-right 5s;
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+}
+
+@keyframes left-to-right {
+  0% {
+    top: 0px;
+    left: 0px;
+  }
+
+  25% {
+    top: 0;
+    left: calc(100% - 60px);
+  }
+
+  50% {
+    top: calc(100% - 60px);
+    left: calc(100% - 60px);
+  }
+
+  75% {
+    top: calc(100% - 60px);
+    left: 0;
+  }
+
+  100% {
+    top: 0;
+    left: 0;
+  }
+}

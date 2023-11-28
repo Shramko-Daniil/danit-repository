@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  border: 5px solid darkcyan;
+  /* flex-direction: row; */
+  justify-content: space-between;
+  align-items: end;
+  height: 400px;
+}
+
+.container-item {
+  margin: 5px;
+  padding: 30px;
+  background: blueviolet;
+}
+
+.two {
+  align-self: center;
+}
+
+.four {
+  align-self: start;
+}

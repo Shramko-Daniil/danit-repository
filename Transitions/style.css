@@ -1,0 +1,45 @@
+.default-button {
+  border: none;
+  padding: 20px 30px;
+  margin: 50px;
+  background: cornflowerblue;
+  color: white;
+  border-radius: 8px;
+  transition: all 0.5s;
+}
+
+.default-button:hover {
+  transition: background 0.5s;
+  background: lightcoral;
+}
+
+.card {
+  margin: 30px;
+  padding: 15px;
+  border: 2px solid cornflowerblue;
+  border-radius: 10px;
+  color: blueviolet;
+  text-align: center;
+}
+
+.card:hover .card-title {
+  color: lightcoral;
+  transition: color 2s;
+}
+
+.card-title {
+  transition: color 2s;
+}
+
+/* .card-description {
+} */
+
+.card-description::selection {
+  background: lightslategray;
+  color: whitesmoke;
+}
+
+.card-title::selection {
+  background: lightslategray;
+  color: whitesmoke;
+}
